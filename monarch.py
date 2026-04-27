@@ -2,8 +2,8 @@ import sys
 
 class Monarch:
     def __init__(self):
-        self.stack = []
-        self.variables = {}  # For named storage if needed
+        self.stack = [] #empty list
+        self.variables = {}  #empty dictionary
 
     def run(self, code):
         lines = code.splitlines()

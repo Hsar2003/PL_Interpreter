@@ -1,8 +1,5 @@
-INPUT "Enter a word: "
+INPUT "Enter word: "
 DUP
 REVERSE
-PUSH "Original: "
-PRINT
-PRINT
-PUSH "If the two lines above match, it is a palindrome!"
+COMPARE
 PRINT
