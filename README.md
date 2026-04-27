@@ -21,14 +21,47 @@ Monarch is a stack-based esoteric programming language. It uses a **LIFO** (Last
 
 ### Examples
 
-**repeater.txt**
-INPUT "Enter character to repeat: "
-INPUT "Enter how many times: "
-REPEAT
-PRINT
+python monarch.py examples/is_palindrome.txt
 
 
-**helloworld.txt**
-PUSH "Hello World!"
-PRINT
+Enter word: racecar
+
+
+True
+
+
+python monarch.py examples/multiply.txt
+
+
+First number: 5
+
+
+Second number: 4
+
+
+20
+
+
+python monarch.py examples/repeater.txt
+
+
+Enter character to repeat: a
+
+
+Enter how many times: 4
+
+
+aaaa
+
+
+python monarch.py examples/cat.txt
+
+
+Enter text: hello
+
+
+hello
+
+
+Note on cat: This takes a full string input and prints it back by popping it from the stack.
 
