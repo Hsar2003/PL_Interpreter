@@ -21,8 +21,14 @@ Monarch is a stack-based esoteric programming language. It uses a **LIFO** (Last
 
 ### Examples
 
+**repeater.txt**
+INPUT "Enter character to repeat: "
+INPUT "Enter how many times: "
+REPEAT
+PRINT
+
+
 **helloworld.txt**
-```text
 PUSH "Hello World!"
 PRINT
 
