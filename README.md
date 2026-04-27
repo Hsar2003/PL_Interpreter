@@ -26,9 +26,3 @@ Monarch is a stack-based esoteric programming language. It uses a **LIFO** (Last
 PUSH "Hello World!"
 PRINT
 
-**multiply.txt**
-```text
-INPUT "First number: "
-INPUT "Second number: "
-MUL
-PRINT
