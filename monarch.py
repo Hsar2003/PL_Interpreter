@@ -67,6 +67,11 @@ class Monarch:
         # 9. DUP: Duplicate top of stack 
         elif cmd == "DUP":
             self.stack.append(self.stack[-1])
+        
+        elif cmd == "COMPARE":
+            b = self.stack.pop()
+            a = self.stack.pop()
+            self.stack.append("True" if str(a) == str(b) else "False")
 
 if __name__ == "__main__":
     if len(sys.argv) > 1:
