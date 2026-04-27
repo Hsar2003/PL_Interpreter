@@ -1,0 +1,4 @@
+INPUT "Enter character to repeat: "
+INPUT "Enter how many times: "
+REPEAT
+PRINT

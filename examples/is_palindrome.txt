@@ -1,0 +1,7 @@
+INPUT "Enter word to check: "
+DUP
+REVERSE
+PUSH "Original word was: "
+PRINT
+PUSH "Reversed word is: "
+PRINT

@@ -1,0 +1,4 @@
+INPUT "Enter first number: "
+INPUT "Enter second number: "
+MUL
+PRINT

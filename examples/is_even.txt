@@ -1,0 +1,3 @@
+INPUT "Enter a number: "
+EVEN
+PRINT
