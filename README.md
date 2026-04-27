@@ -28,8 +28,19 @@ Monarch is a stack-based esoteric programming language. It uses a **LIFO** (Last
 python monarch.py examples/is_palindrome.txt
 ```
 
-Enter word: racecar
+Enter word to check: 
 
+racecar
+
+Original word was: 
+
+racecar
+
+Reversed word is: 
+
+racecar
+
+Is Palindrome? 
 
 True
 
@@ -49,13 +60,17 @@ Second number: 4
 python monarch.py examples/repeater.txt
 ```
 
-Enter character to repeat: a
+Enter character: a
 
+How many times: 4
 
-Enter how many times: 4
+a
 
+a
 
-aaaa
+a
+
+a
 
 ```text
 python monarch.py examples/cat.txt
