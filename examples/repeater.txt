@@ -1,4 +1,16 @@
-INPUT "Enter character to repeat: "
-INPUT "Enter how many times: "
-REPEAT
+INPUT "Enter character: "
+STORE char
+INPUT "How many times: "
+STORE count
+
+# --- LOOP STARTS AT LINE 5 ---
+LOAD char
 PRINT
+
+LOAD count
+PUSH 1
+SUB
+DUP
+STORE count
+
+JUMP 5

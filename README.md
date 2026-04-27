@@ -11,11 +11,14 @@ Monarch is a stack-based esoteric programming language. It uses a **LIFO** (Last
 | `INPUT "msg"` | Takes user input and pushes it to the stack. |
 | `ADD` | Pops two numbers, adds them, and pushes the result. |
 | `MUL` | Pops two numbers, multiplies them, and pushes the result. |
-| `REPEAT` | Pops a count and a string, then pushes the repeated string. |
 | `REVERSE` | Pops a string and pushes its reverse. |
 | `EVEN` | Pops a number and pushes "True" (even) or "False" (odd). |
 | `DUP` | Copies the top value of the stack. |
 | `COMPARE` | Pops two values, pushes "True" if equal, else "False" |
+| `STORE` | Pops the top value and saves it to a variable name. |
+| `SUB` | Pops two numbers, subtracts them ($a - b$), and pushes the result. |
+| `JUMP` | Pops a value; if it's $> 0$, jumps the program to that line number. |
+| `LOAD` | Pushes the value of a saved variable onto the stack. |
 
 ---
 
