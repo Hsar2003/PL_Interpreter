@@ -48,11 +48,17 @@ class Monarch:
             a = int(self.stack.pop())
             self.stack.append(a * b)
 
-        # 6. REPEAT: Pop count, pop char, push result
+        # 6. REPEAT: Take a number and a string, multiply them, push back
         elif cmd == "REPEAT":
-            count = int(self.stack.pop())
-            char = str(self.stack.pop())
-            self.stack.append(char * count)
+            # 1. Pop the number (the 'multiplier')
+            multiplier = int(self.stack.pop())
+            
+            # 2. Pop the content (the 'string')
+            content = str(self.stack.pop())
+            
+            # 3. Create the repeated string and push it back
+            # This is like JavaScript's content.repeat(multiplier)
+            self.stack.append(content * multiplier)
 
         # 7. REVERSE: Pop string, push reversed string
         elif cmd == "REVERSE":
